@@ -1,0 +1,29 @@
+{
+    "name": "taruktataruk/yii2-loginer",
+    "description": "Логування помилок зі збереженням в базу даних",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "logs"
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "aki/yii2-bot-telegram": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taruk",
+            "email": "picaso32@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "bootstrap": "taruktataruk\\loginer\\Bootstrap"
+    },
+    "autoload": {
+        "psr-4": {
+            "taruktataruk\\loginer\\": "src"
+        }
+    }
+}
