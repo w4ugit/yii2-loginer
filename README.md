@@ -26,3 +26,15 @@ frontend/config/main.php
     'botToken' => '1042070336:AAH8tQzPnyjkmHGyUTvPROMI5ctMqVvxu4w',
 ]
 ```
+* налаштуйте логування слідуючим чином
+```
+'log' => [
+    'traceLevel' => YII_DEBUG ? 3 : 0,
+    'targets' => [
+        [
+            'class' => 'taruktataruk\loginer\models\LoginerTarget',
+            'levels' => ['error', 'warning']
+        ],
+    ],
+]
+```
