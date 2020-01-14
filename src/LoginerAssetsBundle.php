@@ -1,12 +1,12 @@
 <?php
 
-namespace taruktataruk\loginer;
+namespace w4ugit\loginer;
 
 use yii\web\AssetBundle;
 
 class LoginerAssetsBundle extends AssetBundle
 {
-    public $sourcePath = '@vendor/taruktataruk/yii2-loginer/assets';
+    public $sourcePath = '@vendor/w4ugit/yii2-loginer/assets';
     public $css = [
         'css/loginer.css'
     ];

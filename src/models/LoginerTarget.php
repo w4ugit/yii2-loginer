@@ -1,6 +1,6 @@
 <?php
 
-namespace taruktataruk\loginer\models;
+namespace w4ugit\loginer\models;
 
 use Yii;
 use yii\base\InvalidConfigException;
