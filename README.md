@@ -2,11 +2,11 @@
 ------------------
 * Встановлення за допомогою Composer.
 ```
-composer require taruktataruk/yii2-loginer
+composer require w4ugit/yii2-loginer
 ```
 * Виконайте міграцію для створення потрібної таблиці в базі даних (консоль):
 ```
-php yii migrate --migrationPath=vendor/taruktataruk/yii2-loginer/src/migrations --interactive=0
+php yii migrate --migrationPath=vendor/w4ugit/yii2-loginer/src/migrations --interactive=0
 ```
 
 * Додайте 2 параметра
@@ -32,7 +32,7 @@ frontend/config/main.php
     'traceLevel' => YII_DEBUG ? 3 : 0,
     'targets' => [
         [
-            'class' => 'taruktataruk\loginer\models\LoginerTarget',
+            'class' => 'w4ugit\loginer\models\LoginerTarget',
             'levels' => ['error', 'warning']
         ],
     ],
