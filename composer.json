@@ -1,5 +1,5 @@
 {
-    "name": "taruktataruk/yii2-loginer",
+    "name": "w4ugit/yii2-loginer",
     "description": "Логування помилок зі збереженням в базу даних",
     "type": "yii2-extension",
     "keywords": [
@@ -14,16 +14,16 @@
     "authors": [
         {
             "name": "Taruk",
-            "email": "picaso32@gmail.com"
+            "email": "admin@web4u.in.ua"
         }
     ],
     "minimum-stability": "stable",
     "extra": {
-        "bootstrap": "taruktataruk\\loginer\\Bootstrap"
+        "bootstrap": "w4ugit\\loginer\\Bootstrap"
     },
     "autoload": {
         "psr-4": {
-            "taruktataruk\\loginer\\": "src"
+            "w4ugit\\loginer\\": "src"
         }
     }
 }
